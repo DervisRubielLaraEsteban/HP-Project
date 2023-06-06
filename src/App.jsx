@@ -27,7 +27,7 @@ function App() {
         categories.length === 0 && (
           <div style={{ textAlign: 'center' }}>
           <h3 className="text-danger" style={{fontFamily: 'Harry Potter'}}>La busqueda está vacia</h3>
-          <h4 className="text-light" style={{fontFamily: 'Harry Potter'}}>Escribe para buscar al personaje que desea buscar.</h4>
+          <h4 className="text-light" style={{fontFamily: 'Harry Potter'}}>Escribe al personaje que desea buscar.</h4>
           </div>
         )
       }
